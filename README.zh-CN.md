@@ -2,9 +2,9 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-[![CI](https://github.com/LinkisLethe/dag-maximum-weight-path/actions/workflows/ci.yml/badge.svg)](https://github.com/LinkisLethe/dag-maximum-weight-path/actions/workflows/ci.yml)
-![Java 8+](https://img.shields.io/badge/Java-8%2B-007396?logo=openjdk)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Build](https://img.shields.io/github/actions/workflow/status/LinkisLethe/dag-maximum-weight-path/ci.yml?branch=main&style=flat-square&label=build)](https://github.com/LinkisLethe/dag-maximum-weight-path/actions/workflows/ci.yml)
+![Java 8+](https://img.shields.io/badge/Java-8%2B-007396?style=flat-square&logo=openjdk&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
 这是一个求解顶点加权有向无环图最大路径的 Java 命令行项目。程序读取邻接矩阵，检查图中是否存在环，并输出指定起点与终点之间的最大权重及对应路径。
 
@@ -78,16 +78,14 @@ No path
 
 ```text
 examples/   样例输入与预期输出
-legacy/     已去除个人信息的 2025 年课程实现
+legacy/     已去除个人信息的课程实现
 src/main/   解析器、图模型、求解器与命令行入口
 src/test/   单元测试与随机回归测试
 ```
 
-## 历史说明
+## 来源说明
 
-第一笔提交保留了 2025 年春季 COMP3023 Design and Analysis of Algorithms 的去标识化实现。提交日期采用原始源文件的修改时间 `2025-05-20`。
-
-Java 8 工程结构、输入校验、邻接表求解器、测试、CI 和文档完成于 `2026-07-19`。这些内容属于后续仓库改造，不代表原始课程提交已经包含这些功能。
+项目起源于 COMP3023 Design and Analysis of Algorithms 的算法练习。`legacy/` 保留了已去除个人信息的课程实现；Maven 工程结构、输入校验、邻接表求解器、测试、CI 和文档属于后续维护，具体变化记录在 Git 历史中。
 
 ## 许可证
 

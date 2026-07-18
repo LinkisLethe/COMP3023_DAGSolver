@@ -2,9 +2,9 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-[![CI](https://github.com/LinkisLethe/dag-maximum-weight-path/actions/workflows/ci.yml/badge.svg)](https://github.com/LinkisLethe/dag-maximum-weight-path/actions/workflows/ci.yml)
-![Java 8+](https://img.shields.io/badge/Java-8%2B-007396?logo=openjdk)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Build](https://img.shields.io/github/actions/workflow/status/LinkisLethe/dag-maximum-weight-path/ci.yml?branch=main&style=flat-square&label=build)](https://github.com/LinkisLethe/dag-maximum-weight-path/actions/workflows/ci.yml)
+![Java 8+](https://img.shields.io/badge/Java-8%2B-007396?style=flat-square&logo=openjdk&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
 This repository contains a Java command-line solver for maximum-weight paths in vertex-weighted directed acyclic graphs. It reads an adjacency matrix, validates that the graph is acyclic, and writes the best path between a requested pair of vertices.
 
@@ -78,16 +78,14 @@ The matrix input format makes total parsing time `O(V²)`, even though the solve
 
 ```text
 examples/   Sample input and expected output
-legacy/     De-identified 2025 course implementation
+legacy/     De-identified course implementation
 src/main/   Parser, graph model, solver, and CLI
 src/test/   Unit and randomized regression tests
 ```
 
-## History
+## Provenance
 
-The first commit preserves the de-identified implementation written for COMP3023 Design and Analysis of Algorithms in Spring 2025. Its commit date uses the original source file's modification time, `2025-05-20`.
-
-The Java 8 project structure, input validation, adjacency-list solver, tests, CI, and documentation were added on `2026-07-19`. These are later repository improvements rather than claims about the original submission.
+The solver began as a COMP3023 Design and Analysis of Algorithms exercise. The `legacy/` directory preserves the de-identified course implementation; the Maven structure, input validation, adjacency-list solver, tests, CI, and documentation are later maintenance recorded in Git history.
 
 ## License
 
