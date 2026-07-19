@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-[![Build](https://img.shields.io/github/actions/workflow/status/LinkisLethe/dag-maximum-weight-path/ci.yml?branch=main&style=flat-square&label=build)](https://github.com/LinkisLethe/dag-maximum-weight-path/actions/workflows/ci.yml)
+[![Build](https://img.shields.io/github/actions/workflow/status/LinkisLethe/COMP3023_DAGSolver/ci.yml?branch=main&style=flat-square&label=build)](https://github.com/LinkisLethe/COMP3023_DAGSolver/actions/workflows/ci.yml)
 ![Java 8+](https://img.shields.io/badge/Java-8%2B-007396?style=flat-square&logo=openjdk&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
